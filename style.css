@@ -1,12 +1,16 @@
-#wrapper .seven-balls{
+#wrapper .seven-balls {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.balls{
-    width: 90px;
-    height: 90px;
+.balls {
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background-color: red;
+}
+
+[type='range'] {
+    width: 60px;
 }
